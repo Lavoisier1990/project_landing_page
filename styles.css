@@ -10,13 +10,51 @@ header, footer, section#hero {
   background-color: #1F2937;
 }
 
+header#page-header {
+  height: 65px;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav#nav-bar {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+a.nav-item {
+  text-decoration: none;
+  height: 100%;
+  line-height: 65px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+a.nav-item:link, a.nav-item:visited {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+a.nav-item:hover {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  border-radius: 10px;
+}
+
+a.nav-item:active {
+  line-height: 75px;
+}
+
 div#header-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
 }
 
-p#hero-subtext, li a { 
+p#hero-subtext { 
   font-size: 18px;
   color: #E5E7EB;
 }
