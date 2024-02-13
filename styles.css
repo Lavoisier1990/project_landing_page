@@ -100,7 +100,7 @@ background-color: #3882f6;
 font-size: 20px;
 font-weight: bold;
 color: #F9FAF8;
-padding: 10px 20px;
+padding: 10px 30px;
 border-radius: 8px;
 cursor: pointer;
 border: none;
@@ -159,16 +159,63 @@ section#quote-section {
 
 blockquote#quote-wrapper {
   padding: 0 100px;
-  border: solid 1px black;
 }
 
 p#quote-text {
   font-size: 36px;
-  font-weight: light;
+  font-weight: 100;
   font-style: italic;
   color: #1F2937;
+  margin-bottom: 20px;
 }
 
-section#call-section {
+cite {
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div#section-call-wrapper {
   background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+  border-radius: 5px;
   }
+
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+  }
+
+  p#invitation {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 5px 0;
+  }
+
+  button#sign-up-button2 {
+  background-color: #3882f6;
+  font-size: 20px;
+  font-weight: bold;
+  color: #F9FAF8;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 2px #F9FAF8;
+  }
+
+  button#sign-up-button2:hover {
+    background-color: #F9FAF8;
+    color: #3882f6;
+  }
+  
+  button#sign-up-button2:active {
+    letter-spacing: 1.2px;
+    line-height: 25px; 
+  }
+
+
+
