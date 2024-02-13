@@ -132,6 +132,7 @@ div.section-info-wrapper {
   justify-content: space-around;
   gap: 80px;
   padding: 0 80px;
+  flex-wrap: wrap;
 }
 
 div.info-item {
@@ -180,6 +181,7 @@ div#section-call-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding: 40px 80px;
   border-radius: 5px;
   }
@@ -215,6 +217,28 @@ div#section-call-wrapper {
   button#sign-up-button2:active {
     letter-spacing: 1.2px;
     line-height: 25px; 
+  }
+
+  footer#page-footer {
+    text-align: center;
+  }
+
+  p#footer-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 35px 0;
+    word-spacing: 8px;
+  }
+
+  span {
+    word-spacing: initial;
+  }
+
+  a#odin-link {
+    text-decoration: none;
+    color:#F9FAF8;
+
   }
 
 
