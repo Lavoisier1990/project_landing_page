@@ -12,7 +12,7 @@ header, footer, section#hero {
 
 header#page-header {
   height: 65px;
-  padding: 0 100px;
+  padding: 0 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,7 @@ a.nav-item:hover {
 }
 
 a.nav-item:active {
-  line-height: 75px;
+  line-height: 70px;
 }
 
 div#header-logo {
@@ -54,20 +54,68 @@ div#header-logo {
     font-weight: bold;
 }
 
+section {
+  padding: 100px 250px;
+}
+
+section#hero {
+  display: flex;
+  justify-content: stretch;
+}
+
+div#introduction {
+  flex: 1;
+  width: 50%;
+  
+}
+
+div#image-placeholder {
+  flex: 1;
+  width: 50%;
+  text-align: center;
+  
+}
+
+img#intro-img {
+  width: 80%;
+  
+}
+
 p#hero-subtext { 
   font-size: 18px;
   color: #E5E7EB;
+  margin: 20px 0;
+  line-height: 25px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: extra-bold;
-  color: #F9FAF8
+  color: #F9FAF8;
+  line-height: 55px;
 }
 
-button#sign-up-button, section#call-section {
+button#sign-up-button {
 background-color: #3882f6;
+font-size: 20px;
+font-weight: bold;
+color: #F9FAF8;
+padding: 10px 20px;
+border-radius: 8px;
+cursor: pointer;
+border: none;
 }
+
+button#sign-up-button:hover {
+  background-color: #F9FAF8;
+  color: #3882f6;
+}
+
+button#sign-up-button:active {
+  letter-spacing: 1.2px;
+  line-height: 25px; 
+}
+
 
 h2 {
   font-size: 36px;
@@ -85,3 +133,7 @@ p#quote-text {
   font-style: italic;
   color: #1F2937;
 }
+
+section#call-section {
+  background-color: #3882f6;
+  }
